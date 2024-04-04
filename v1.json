@@ -1,3 +1,46 @@
 {
-	"virtual_box": "unavailable"
+	"virtual_box": "available",
+	"Setup": [
+		{
+			"iso setup": [
+				{
+					"Virtual Machine Name": "Virtual Machine 1",
+					"Folder": "C:/Users/Nicolaus/VirtualBox Vms",
+					"ISO Image": "C:/Sinau/networking/ubuntu-22.04.4-live-server-amd64.iso",
+					"Edition": "none",
+					"Type": "Linux",
+					"Version": "Ubuntu (64-bit)",
+					"Skip Unattended Instalattion": false,
+					"Username and password": [
+						{
+							"Username": "nico",
+							"password": "11111111"
+						}
+					],
+					"Additional Options": [
+						{
+							"hostname": "virtual-machine-1",
+							"Domain Name": "mygues.virtualbox.org",
+							"Install in background": false
+						}
+					],
+					"Guest Additions": false,
+		
+					"Hardware": [
+						{
+							"Base Memory": "2048 MB",
+							"Processors": "2 CPU",
+							"Enable EFI": false
+						}
+					], 
+					"Virtual Hard disk": [
+						{
+							"create a virtual hard disk now": "25 GB",
+							"Pre-allocate Full size": false
+						}
+					]
+				}
+			]
+		}
+	]
 }
